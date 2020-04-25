@@ -2,24 +2,81 @@
     <head>
         <title>Fullerton Dashboard</title>
 	<script type="text/javascript">
-            setTimeout(function () { location.reload(true); }, 30000); // 30 seconds
+            setTimeout(function () { location.reload(true); }, 1800000); // 30 min is 1800000
         </script>
-
-
-
-
-    </head>
+	<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+	<style>
+    	.container {
+	    	display: flex;
+	    	flex-direction: row;
+	    	background-color: black;
+	  	}
+        .detailcol1 {
+	   		flex-direction: column;
+	   		flex-grow: 0;
+	 	}
+        .detailcol2 {
+	   		flex-direction: column;
+	   		justify-content: flex-start;
+	   		flex-grow: 4;
+	 	}
+        .weatherrow {
+	   		height: 163px;
+	   		align-items: stretch;
+	   		background-color: black;
+	 	}
+    </style>
+	</head>
+	
     <body style="background-color:#000000;">
-	    <!-- weather widget start --><a target="_blank" href="https://www.booked.net/weather/herndon-1016"><img src="https://w.bookcdn.com/weather/picture/3_1016_0_1_007bff_430_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=2&domid=w209&anc_id=33932"  alt="booked.net"/></a><!-- weather widget end -->
+      <div class='container'>
+        <div class="detailcol1">		
+          <div class="weatherrow">
+	    <!-- weather widget start -->
+			<a target="_blank" href="https://www.booked.net/weather/herndon-1016"> <img src="https://w.bookcdn.com/weather/picture/3_1016_0_1_007bff_430_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=2&domid=w209&anc_id=33932"  alt="booked.net"/> </a>
+	    <!-- weather widget end -->
 
-	    <iframe src="http://free.timeanddate.com/clock/i781juc1/n263/fs20/fcfff/tct/pct/bac00f/tt0/tw0/tm1/ts1/tb4" frameborder="0" width="126" height="50" allowTransparency="true"></iframe>
+	    	<iframe src="http://free.timeanddate.com/clock/i781juc1/n263/fs20/fcfff/tct/pct/bac00f/tt0/tw0/tm1/ts1/tb4" frameborder="0" width="131" height="50" allowTransparency="true"></iframe>
 
-	  <!-- weather widget start --><a target="_blank" href="https://www.booked.net/weather/nags-head-5035"><img src="https://w.bookcdn.com/weather/picture/3_5035_0_1_007bff_430_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=2&domid=w209&anc_id=33932"  alt="booked.net"/></a><!-- weather widget end --> 
+	    <!-- weather widget start -->
+	    	<a target="_blank" href="https://www.booked.net/weather/nags-head-5035"> <img src="https://w.bookcdn.com/weather/picture/3_5035_0_1_007bff_430_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=2&domid=w209&anc_id=33932"  alt="booked.net"/> </a>
+            <!-- weather widget end --> 
+          </div>
 
-
-        <div>
-            <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=a2VudHRoZXNsdWdAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZnVsbGVydG9ucml0YUBnbWFpbC5jb20&amp;src=c2NmOTI1QGdtYWlsLmNvbQ&amp;src=dHJvb3AxNTdjYWxlbmRhckBnbWFpbC5jb20&amp;color=%23227F63&amp;color=%23329262&amp;color=%2330487E&amp;color=%2370237F&amp;color=%23DD5511&amp;showTitle=0" style="border:solid 1px #777" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
-        <div>
-
+          <div>
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=a2VudHRoZXNsdWdAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZnVsbGVydG9ucml0YUBnbWFpbC5jb20&amp;src=c2NmOTI1QGdtYWlsLmNvbQ&amp;src=dHJvb3AxNTdjYWxlbmRhckBnbWFpbC5jb20&amp;color=%23227F63&amp;color=%23329262&amp;color=%2330487E&amp;color=%2370237F&amp;color=%23DD5511&amp;showTitle=0" style="border:solid 1px #777" width="1000" height="770" frameborder="0" scrolling="no"></iframe>
+          </div>
+        </div>
+		<div class="detailcol2">
+          <div class="pa-carousel-widget" style="width:100%; height:800px; display:none;"
+	       data-link="https://photos.app.goo.gl/a43FBcYEjuzR3cog8" data-title="" data-description="27 nred album">
+            <object data="https://lh3.googleusercontent.com/93AGDCMJa02Cj_GcOYjO2Bpg_d2S-5DJiP_-cyqmVwOTYmhjpBdWEtVNr_G7iETR-Dxf1kD002dFqv9MGLxVU0aW0VDkVxbO_9bh13ya9VDnAZ-IDXOaDqg3231yT_MO-vBSrwejfg=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/bDmiC0SiCmh5VTCPuqE4onFCAQUxvWl0ydu7jlMyU0fsr4XZ9pFjOomTrPhdoZWRPbJQIlRJUqZDN4EkNmhkBpe300KnkdBCgmuQM_hkrSHkTvZLz5zpTOQo4gXaqg0RxEwdZdH57Q=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/1-ocuBRBr87t-MmbpA6hlY_XjkF45Y-9w2mYLDr4G9Ll_nibPZhwig_fGFXwe6DAcoohKpx_16K6sGaTfQ0M00Y67dppfWAhceeBH-aSVNXdBI0iTdTSOq8IUvnSJu35YpVx-7djWg=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/fVFVcAgiRYNoQN41OgDnznjmJYUaNeDi4EgrLTAzN_VHW9ba7iORTNCfY2BgT1_OXshuahTS1UO5yIbJD2XfOlEhnqviztcW3bR309P459g15u1mLa9Mg21MZcrNSrFUjdgJ5yakiw=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/JKLhonD65Xknn9s8LmWtIX7dXY2Y5MSivasecLpZtKDhpi7DnrKPdhq3om-bQ6PJI5rxmK7R0rvUA6VviegjIWvI2HLW5M9MiOBQmF8ATgTv9llsAZjUcMeGZsKqMli3Bl8hmyk_7A=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/wlrbrkejoQETdF9s0dlqPe6o4LnP1a6e6d5-VN9CpI_FBFbdMhNd7CpNOHBurqWxFSxLN4IMs07svj4ZaBlPWHgXzuQwP-A95Z4ZqXaynZXSYVZ5TT1_yf1aLAjmBPLVYbqSoxOGMA=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/qacowPX6cELIubEuPVJstshkYImswEXFNV5HFKgc_Lb2F7hexRRReRWbb7xNzvh90m-4y-CEv8fp2DUWq5czsOc1FjYXj5drlge9gKtrblSGmVSteVLEcZdL2Rk3vr5ThtjcM9n4bQ=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/BPz8pvQBdBZmDEV8spK3EIMWH99Oo-cXG05we7X-CoPGRyRZriA-dNQjphBMztrFZA6QRANukFTwzQuXcDIXTRfM3mc26fUjuuXk7LhKmmPGgjInPqv_jNtwpV-Vtc6bGZSxop4GjQ=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/_SlpCFjSCzV4RKG5uLKy50K-yHQ3X3j__5EB9TVvlNsflk3r0mQz2NBcJLy99J_HcxEdPUsh5NApIY_T8XeNCjD7AbDKRFIpO4GHkVwnP0p9dGhNGIIIrgeGTXNzcYScc39fKK5LFQ=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/tJe1adD7tT5Or6ei7luGq-naEYym_3y8hmJ48A51DZwWudFlqkqjC-74mIj57p1gsoaudDzYvvh6TmEOhn0qWcxM9Vn7d6Z_rlSwIEw3gpl9AOiUM3wDH6_LtAaRTbuMqJsIlmlXXw=w1920-h1080"></object>
+            <object data="https://lh3.googleusercontent.com/Xp0nFgLhTtMxq-y3bqz_xSpB_iXZoCdzxaeK-6CqNfTlYBJ4_7Bqpd6fiUyIFuv4HW0K3Twlj_6wB9U448ULC0DtCwAC6GejhBzSi3LeGPQLx1PaS2SdqDhNn_PEWQ=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/xEqA81UHePCObvR5ffykS3nGgsY00HaQiQ_n4mBlWsYtxO6BkaQFSxx_tqV7nvRteywgJPLS939dVKXBcmj12IY9ZhKhvz0jWe1SsdV4PnGfJF_ek5zZASP8hXoTrzEPyyymSw=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/m4u9QvdNdQxen89p8GVIWz9M8W40Xk_wlHOI_QbemrYBsxlnwXXDZyVRjBRzTepCje33YcDj1oeYZucSHEgYpUWc114djxTRSlko3T1ZRXF1lw0pquyp2PPiQtXENcHtSyTfO0ghVg=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/ONgLTPgX0j1s3gqtOV4B1CcJ3uyPAFDwC7IdAZ6BwdwrGNN-mbKtHbGgNBFGKnp5_O_kX8NSgD2RylGKHa29TVjfii6oVPLVHey2E0wowPmBwnUVXmZZiwocrskWEVsnPjA8UQ=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/FGyHEjhUsUAvHm9YaDMSxHwXvWNWNeTBh4EjUzi6Oo4tHCg9tMVtpXq15KU8R5pG2hI46eHU-g-iI8CJ6K8ZowzlCOLFfXk-VOFFaxWZ4EJmXTnM77L0A6klzq3_JN_lbIdQ=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/wkj25Wp-n04mHp7zp0KPnezgZcgYmnDfWAk1VVLl_vFr7MYNqDTDFBp9MFhuWjTzlYHHkvoMvl8bzbQexfeAa4R99ne_Ra1kjZp2DJ7ZpEINeA-vib8vk7QY_8t4j0G_BNlqkCog=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontomt.com/8jFojkf_ehgPFwEb97jhRf4TdFmz-jLdvjGgbBZv5eeRYJvQERcwbMeQ4QW5OJk87RtdT8p9KNcuTW0BC7WyromLXq8rhPJq_N054tAM-McA37LtItesyKWzZZpn2BeQ=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/hc16hGOooifUITVAe3ejRMOhP7eC9Uv9HljgpKfO77-Yj0yZ20RXVbdCWBizq9TMh81m9gmCvPJtzM2H1oiH6MWlRgLRmllR6ghrYUlP8Wf0bp6c97KUS5OeXbGDp4fg=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/LDMEakXtg0Wc4mZORV2F59T4QshR22hqo0-iQorYddTyVDXG4icLq-untGSVVe-Gkp99x_PLxU85makaFGZY9hLykk_qxZto5NlQ8h9ZSgnz2Qf76NyWosZnRObmjyyOhVoRujo4A=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/D-EmwXxm8vVbTVNmDcT_VqAZlmF_PMq9ikVPjS94rDUBF0eL4DCEdmI5UsouDL2mZ_lzQFD6KouuS3AeNCaHbkEmC26O9d60XZs2yY1L5CTGKQPGZ8RpTNBnicQ=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/BpSo0lgaCKcBE43I_d2Z3S5Fu2QNChTyf2f2P8cl8DIW34lsjbEAJ3EugT3FAmmtbsXB4AJoLGEjf-syI1IK0aY8FyuuTG1Xgx_Jg5qt460C4r_2Prwd7wIeR5xXYA=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/LHY5eVVFBTuWjjyF7TUAQCPvHvF5sMx2tz_nj7ftvPwvVueRh8ldgz87gP50cf8Dde8dCumQ0C_2zBdGVpPCP0cKWlg0kZUHmyNK6ytLPsMqi3L8vOKQRLeIXeP-DCRsulw-KioVMw=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/ZHH1SrnyvTntwhPbk3xKaZov1GA6iwS5TKmn6UI6aUnHJq1WfGkadmXQ9Sqjp6lQdp0ThaofjmBiq6l4WGfm6ObC76yLSUNlgRqqRC1ZdkucG_1zJ6GcGdIip6P2NLwMmlxpa2Q=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/On8npyqPABJhlOH0toNv3bX0m18voafcMO3FZmiI4x7WO0d6_Yv86A7fOcLHU_5f9oT38V_hxpGzoF04gZ6jDVCfSh_MSP-5_AfiqyRIk-R11duA54mGinxgF5oBvUR6NqOJQTY35g=w1920-h1080"></object>
+	    	<object data="https://lh3.googleusercontent.com/SLcm3ZO-lyXHE0nXH_nRaucHn2YXnv7vYMRlORfbN7GyebH0wkaUv4PP0yM8xQ1rU29tG1PoYg_hUpHzV4Woy1WXbwU3c1olODFfyMOWRqovvPnwF25VSTTvHOCR1ae8dIuI3uxuRA=w1920-h1080"></object>
+	  	  </div>
+		</div>
+      </div>
     </body>
 </html>

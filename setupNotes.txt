@@ -10,3 +10,6 @@ start file is /home/pi/.config/lxsession/LXDE/autostart
 @xset -dpms
 @chromium-browser --kiosk file:///home/pi/Desktop/dashboard/dashboard.html
 
+
+carasel is from 
+https://www.publicalbum.org/blog/embed-photos-slideshow-carousel-widget
